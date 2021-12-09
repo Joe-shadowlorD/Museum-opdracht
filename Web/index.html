@@ -3,12 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE-edge">
-    <meta name="viewport" content="width-device-width, initial-scale-1.0">
     <title>RijksMuseum landingspage</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="Icon Shortcut" href="/Images/icon.jpg"/>
+    <meta name="viewport" content="width-device-width, initial-scale-1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/top.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>RijksMuseum</h1>
-
+    <section class="top">
+        <header>
+            <a href="#"> <img src="/Images/Logo.png" class="logo"></a>
+            <ul>
+                <li><a href="English.html">English</a></li>
+                <li><a href="#ticket">Bezoek</a></li>
+                <li><a href="#ticket" id="tickets">Tickets</a></li>
+                <li><a target="_blank" href="https://www.rijksmuseum.nl/nl/footer/contact">Contact</a></li>
+            </ul>
+        </header>
+        <div class="contentBox">
+            <div class="textBox">
+                <h2>DummyText <span>Museum</span></h2>
+                <p>Bleach (stylized as BLEACH) is a Japanese anime television series based on Tite Kubo's original manga series of the same name. 
+                    It was produced by Studio Pierrot and directed by Noriyuki Abe. 
+                    The series aired on TV Tokyo from October 2004 to March 2012, 
+                    spanning 366 episodes. 
+                    The story follows the adventures of Ichigo Kurosaki after he obtains the powers of a Soul Reaper—a death personification similar to the Grim Reaper—from another Soul Reaper, 
+                    Rukia Kuchiki. 
+                </p>
+            </div>
+            <div class="imgBox" style>
+                <img src="/Images/img1.png" class="kunstwerk">
+            </div>
+        </div>
+        <ul class="thumb">
+            <li><img src="/Images/img1.png" onclick="imgSlider('Images/img1.png')"></li>
+             <li><img src="/Images/img2.png" onclick="imgSlider('Images/img2.png')"></li>
+            <li><img src="/Images/img3.png" onclick="imgSlider('Images/img3.png')"></li>
+            <li><img src="/Images/img4.png" onclick="imgSlider('Images/img4.png')"></li>
+            <li><img src="/Images/img5.png" onclick="imgSlider('Images/5.png')"></li>
+        </ul>
+    </section>
 </body>
 </html>
