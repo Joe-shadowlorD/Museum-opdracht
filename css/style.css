@@ -15,4 +15,96 @@
     background: #222831;
     padding: 30px;
     color: white;
+    height: 200px;
+
+}
+.tickets h3 {
+    margin: 0px;
+}
+
+.tickets p {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.tickets a {
+    border-radius: 5px;
+    border: solid;
+    border-width: 2px;
+    border-color: white;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    background: white;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.tickets a:hover {
+    background: #222831;
+    color: white;
+    border-color: white;
+    transition: 0.3s;
+}
+
+#ticket {
+    scroll-behavior: smooth;
+}
+
+.bezoekFoto {
+    display: inline-block;
+    height: 250px;
+    margin: 50px;
+}
+
+.bezoekTekst {
+    display: inline-block;
+    max-width: 300px;
+    vertical-align: top;
+    margin-top: 70px;
+}
+
+.reviews {
+    display: table;
+    width: 100%;
+}
+
+.review {
+    float: left;
+    width: 33.33%;
+    padding: 20px;
+    text-align: center;
+    background: #222831;
+    color: white;
+    display: table-cell;
+    height: 150px;
+}
+
+.checked {
+    margin: 3px;
+}
+
+.reviews:after {
+    content: "";
+    display: table-cell;
+    clear: both;
+}
+
+@media screen and (max-width:800px) {
+    .review {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:1300px) {
+    .bezoek {
+        width: 70%;
+    }
+    .bezoekTekst {
+        margin-left: 20px;
+    }
+    .bezoekFoto {
+        margin: 20px;
+    }
 }

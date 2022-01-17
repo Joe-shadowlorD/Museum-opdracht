@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE-edge">
     <title>RijksMuseum landingspage</title>
-    <link rel="Icon Shortcut" href="/Images/icon.jpg"/>
+    <link rel="Icon Shortcut" type="image/jpg" href="/Images/icon.jpg"/>
     <meta name="viewport" content="width-device-width, initial-scale-1.0">
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/top.css">
+    <link rel="stylesheet" type='text/css' media='screen' href="/css/style.css">
+    <link rel="stylesheet" type='text/css' media='screen' href="/css/top.css">
+    <link rel="stylesheet" type='text/css' media='screen' href="/css/Footer.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
     <section class="top">
@@ -25,13 +26,16 @@
         </header>
         <div class="contentBox">
             <div class="textBox">
-                <h2>DummyText <span>Museum</span></h2>
-                <p>Bleach (stylized as BLEACH) is a Japanese anime television series based on Tite Kubo's original manga series of the same name. 
-                    It was produced by Studio Pierrot and directed by Noriyuki Abe. 
-                    The series aired on TV Tokyo from October 2004 to March 2012, 
-                    spanning 366 episodes. 
-                    The story follows the adventures of Ichigo Kurosaki after he obtains the powers of a Soul Reaper—a death personification similar to the Grim Reaper—from another Soul Reaper, 
-                    Rukia Kuchiki. 
+                <h2>Geschiedenis van <span>RijksMuseum</span></h2>
+                <p>
+                    Het begon Op 19 november 1798, besloot de regering naar Frans voorbeeld een nationaal museum op te richten. 
+                    Een ‘prestigeproject’ om de liefde voor het land aan te wakkeren maar ook om belangrijke voorwerpen te bewaren. 
+                    Op 31 mei 1800 opende deze Nationale Kunstgalerij voor het eerst zijn deuren in Huis Ten Bosch in Den Haag.
+                    Met ruim 200 schilderijen en historische voorwerpen, 
+                    deels uit de stadhouderlijke collecties en deels uit (opgeheven) landelijke instellingen, zoals de VOC. 
+                    De eerste aankoop, 
+                    De Zwaan van Jan Asselijn, 
+                    kostte 100 gulden en is nog steeds een van de topstukken van het Rijksmuseum. 
                 </p>
             </div>
             <div class="imgBox" style>
@@ -39,12 +43,76 @@
             </div>
         </div>
         <ul class="thumb">
-            <li><img src="/Images/img1.png" onclick="imgSlider('Images/img1.png')"></li>
+            <li><img src="/Images/img1.png" onclick="imgSlider('Images/img6.png')"></li>
              <li><img src="/Images/img2.png" onclick="imgSlider('Images/img2.png')"></li>
             <li><img src="/Images/img3.png" onclick="imgSlider('Images/img3.png')"></li>
             <li><img src="/Images/img4.png" onclick="imgSlider('Images/img4.png')"></li>
-            <li><img src="/Images/img5.png" onclick="imgSlider('Images/5.png')"></li>
+            <li><img src="/Images/img5.png" onclick="imgSlider('Images/img5.png')"></li>
         </ul>
     </section>
+    <section class="mid">
+        <div class="tickets" id="tickets">
+            <h3>Tickets</h3>
+            <p>Bestel hier jouw ticket met Starttijd.</p>
+            <a target="_blank" href="https://www.rijksmuseum.nl/nl/tickets/artikelen">Reserveer Nu</a>
+        </div>
+        <div class="bezoek">
+            <img class="bezoekFoto" src="/Images/Bezoek.png">
+            <div class="bezoekTekst">
+                <span>
+                    Een bezoek aan het RijksMuseum(Digitaal, fysiek of met je telefoon) is een persoonlijke ontdekkingstocht. 
+                    Heb je een brandende vraag, of wil je jouw essay- of werkstukonderwerp eens vanuit een totaal andere hoek bekijken? Je bent welkom. 
+                    Je stapt gegarandeerd naar buiten met een nieuw inzicht, 
+                    antwoord of op zijn minst met een nieuwe vraag.</span>
+            </div>
+        </div>
+        <div class="Reviews">
+            <div class="review" id="review1"> Sara<br>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <p>"Zeer, zeer mooi museum. Het bezoeken waard, nou eigenlijk verplicht. Het gebouw alleen is al zeer fraai, wat een schitterende details, kleuren, en muurschilderingen. Alleen daar kan je al uren naar kijken."</p>
+            </div>
+
+            <div class="review" id="review2"> Piet<br>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <p>"Prachtig museum in historisch gebouw. Enorm grote collectie van niet alleen meesterwerken maar ook andere verzamelingen. De voorgeschreven routes met verschillende kleuren zijn niet altijd duidelijk en je krijgt dan ook niet alles te zien. Na afloop bij mooi weer is de museumtuin ook een aanrader."</p>
+            </div>
+            
+            <div class="review" id="review3"> Piet<br>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <p>"Super interessant museum met mooie werken en tegelijk een indrukwekkende architectuur. Bezoek je met je kids? Ga dan zeker voor het familiespel. Duurde ong 1u45 en we hebben ons geen minuut verveeld."</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+    <div class="container">
+        <div class="ftr">
+            <h3>Contact</h3>
+            <ul class="content">
+                <li><a>info@rijksmuseum.com</a></li>
+                <li><a> 020 6747 000</a></li>
+                <li><a>1070 DN Amsterdam</a></li>
+            </ul>
+        </div>
+        <div class="ftr">
+            <h3>Volg ons</h3>
+            <ul class="content">
+                <li><a target="_blank" href="https://www.facebook.com/rijksmuseum/">Facebook</a></li>
+                <li><a target="_blank" href="https://www.instagram.com/rijksmuseum/">Instagram</a></li>
+                <li><a target="_blank" href="https://www.linkedin.com/company/rijksmuseum">LinkedIn</a></li>
+            </ul>
+        </div>
+</footer>
+        
 </body>
 </html>
